@@ -1,7 +1,7 @@
 # Multi-Label Retinal Disease Classification via Deep Learning
 
 Retinal Disease Classification via Deep Learning
-This repository contains a multi-label deep learning pipeline for detecting Diabetic Retinopathy (DR), Glaucoma (G), and Age-related Macular Degeneration (AMD) in retinal images. Developed for the University of Oulu Deep Learning course (5211535-3006-2025), the project utilizes transfer learning and ensemble strategies to achieve robust diagnostic performance on the ODIR dataset.
+This repository contains a multi-label deep learning pipeline for detecting Diabetic Retinopathy (DR), Glaucoma (G), and Age-related Macular Degeneration (AMD) in retinal images. Developed for the University of Oulu Deep Learning course, the project utilizes transfer learning and ensemble strategies to achieve robust diagnostic performance on the ODIR dataset.
 
 ## Project Overview
 This project implements a deep learning pipeline for the multi-label classification of retinal diseases: **Diabetic Retinopathy (DR)**, **Glaucoma**, and **Age-related Macular Degeneration (AMD)**. It leverages transfer learning, custom loss functions for class imbalance, attention mechanisms, and ensemble strategies to optimize performance on the ODIR dataset. The project consists of four tasks:
@@ -53,3 +53,4 @@ Install dependencies using:
 ```bash
 
 pip install torch torchvision numpy pandas scikit-learn pillow
+
